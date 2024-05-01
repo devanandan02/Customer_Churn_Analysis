@@ -18,6 +18,8 @@ The app allows users to upload a pre-trained Random Forest model and input custo
 3. Install the required Python packages:
    pip install -r requirements.txt
 
+4. Run the model_train.py to train and save the model.
+
 ## Usage
 
 1. Run the Streamlit app:
@@ -29,7 +31,8 @@ The app allows users to upload a pre-trained Random Forest model and input custo
 
 ## Folder Structure
 <pre>
-├── app.py # Streamlit app script
+├── data/ # Folder to store data files
+├── models/ # Folder to store saved models
 ├── src/
 │ ├── init.py # Init file for src package
 │ ├── data_loader.py # Module for loading data
@@ -37,8 +40,8 @@ The app allows users to upload a pre-trained Random Forest model and input custo
 │ ├── model_saver.py # Module for saving models
 │ ├── model_trainer.py # Module for training models
 │ ├── utils.py # Utility functions
-├── models/ # Folder to store saved models
 ├── data/ # Folder to store data files
+├── model_train.py # To train and save the model
 ├── README.md # Project README file
 └── requirements.txt # List of Python dependencies
 <pre>
