@@ -28,7 +28,7 @@ The app allows users to upload a pre-trained Random Forest model and input custo
 3. Click the "Predict Churn" button to see the prediction.
 
 ## Folder Structure
-
+<pr>
 ├── app.py # Streamlit app script
 ├── src/
 │ ├── init.py # Init file for src package
@@ -41,3 +41,4 @@ The app allows users to upload a pre-trained Random Forest model and input custo
 ├── data/ # Folder to store data files
 ├── README.md # Project README file
 └── requirements.txt # List of Python dependencies
+<pr>
